@@ -28,7 +28,7 @@ const Navbar = () => {
         <Disclosure as="nav" className="navbar bg-teal-300 mt-5 rounded-[10px]">
           {({ open }) => (
             <>
-              <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-[1800px] px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
