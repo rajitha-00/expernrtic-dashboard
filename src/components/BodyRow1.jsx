@@ -7,7 +7,7 @@ const BodyRow1 = () => {
       <div className="flex ">
         <div className="search flex bg-white  items-center px-4 rounded-[20px]">
             <input type="text" placeholder='Search' className='serch box active:border-none' />
-            <div className="icon bg-amber-200 rounded-[10px] p-2">
+            <div className="icon bg-amber-100 rounded-[10px] p-2">
                 <img src="./search.png" alt="" />
             </div>
         </div>

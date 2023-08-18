@@ -4,7 +4,7 @@ const SidebarButton = ({ dashIcon, dashText, isActive, onClick }) => {
   return (
     <div
       className={`items-center w-full flex mt-5 ${
-        isActive ? 'bg-amber-200' : ''
+        isActive ? 'bg-amber-100' : ''
       } rounded-[20px] px-5 py-2`}
       onClick={onClick}
     >

@@ -10,7 +10,7 @@ const NestedAccordion = ({ title, children }) => {
   };
 
   return (
-    <div className=" hover:bg-[rgba(191, 228, 220, 0.61)]  rounded-[10px] p-2 mb-2">
+    <div className=" active:bg-green-200  rounded-[10px] p-2 mb-2">
       <div
         className="flex  items-center cursor-pointer"
         onClick={toggleAccordion}
