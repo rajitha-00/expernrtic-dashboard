@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
 
     <>
-    <div className="relative mx-5">
+    <div className="relative  mx-1 mt-5">
 
         <SidebarSelect />
         <div>

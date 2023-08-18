@@ -10,7 +10,7 @@ const SidebarSelect = () => {
             <Listbox value={selected} onChange={setSelected} >
             {({ open }) => (
                 <>
-                <div className="relative mt-2 ">
+                <div className="relative">
                     <Listbox.Button className="relative flex items-center justify-between w-full cursor-default rounded-[20px] bg-black px-8 py-4">
                     <span className="flex items-center">
                         <span className=" block truncate text-white">{selected.name}</span>

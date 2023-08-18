@@ -24,11 +24,11 @@ const userNavigation = [
 const Navbar = () => {
   return (
     <>
-      <div className="min-h-full mx-5">
-        <Disclosure as="nav" className="navbar bg-teal-300 mt-5 rounded-[10px]">
+      <div className="min-h-full ">
+        <Disclosure as="nav" className="navbar mx-5 bg-teal-300 mt-5 rounded-[10px]">
           {({ open }) => (
             <>
-              <div className="mx-auto max-w-[1800px] px-4 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-[1920px] px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
