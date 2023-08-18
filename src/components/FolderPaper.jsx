@@ -1,4 +1,5 @@
 import React from 'react'
+import Accodion from './Accodion'
 
 const FolderPaper = () => {
   return (
@@ -7,6 +8,7 @@ const FolderPaper = () => {
         <div className="flex items-center justify-between">
             <h2 className='text-teal-600'>New Folder</h2>
         </div>
+        <Accodion/>
       </div>
     </>
   )
