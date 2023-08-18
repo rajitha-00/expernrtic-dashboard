@@ -1,9 +1,12 @@
 import React from 'react'
+import Sidebar from '../components/Sidebar'
 
 const Dashboard = () => {
   return (
     <>
-      <h1>Dahsboard</h1>
+      <div className="flex">
+        <Sidebar />
+      </div>
     </>
   )
 }
