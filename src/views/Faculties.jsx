@@ -1,12 +1,13 @@
 import React from 'react'
-import Sidebar from '../components/Sidebar'
+import SidebarFaculties from '../components/SidebarFaculties'
+import FacList from '../components/FacList'
 
 const Faculties = () => {
   return (
     <>
       <div className="flex mx-auto max-w-[1800px] px-4">
-        <Sidebar/>
-        
+        <SidebarFaculties/>
+        <FacList/>
       </div>
     </>
   )

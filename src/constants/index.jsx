@@ -21,6 +21,30 @@ export const sideBarDash = [
     },
 ];
 
+export const sideBarFac = [
+    {
+        id: 1,
+        dashIcon : "./documents.png",
+        dashText : "Faculties"
+    },
+    {
+        id: 2,
+        dashIcon : "./overview.png",
+        dashText : "Overview"
+    },
+    
+    {
+        id: 3,
+        dashIcon : "./courses.png",
+        dashText : "Courses"
+    },
+    {
+        id: 4,
+        dashIcon : "./complaints.png",
+        dashText : "Complaints"
+    },
+];
+
 export const departments = [
     {
         id: 1,

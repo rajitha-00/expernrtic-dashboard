@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 
 const user = {
@@ -59,7 +59,7 @@ const Navbar = () => {
                         type="button"
                         className="relative rounded-[10px] bg-white p-1"
                       >
-                        <BellIcon className="h-6 w-6" aria-hidden="true" />
+                        <img src="./bell.png" alt="" />
                       </button>
 
                       {/* Profile dropdown */}
@@ -139,7 +139,7 @@ const Navbar = () => {
                     >
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">View notifications</span>
-                      <BellIcon className="h-6 w-6" aria-hidden="true" />
+                      <img src="./bell.png" alt="" />
                     </button>
                   </div>
                   <div className="mt-3 space-y-1 px-2">
