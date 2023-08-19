@@ -5,7 +5,7 @@ import { files } from '../constants';
 const DocumentsBody = () => {
   return (
     <>
-    <div className="relative w-[85%] ">
+    <div className="relative lg:w-3/4 ">
 
       <BodyRow1 />
       {files.map((file, i) => (

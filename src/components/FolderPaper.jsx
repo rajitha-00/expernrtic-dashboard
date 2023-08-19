@@ -5,8 +5,8 @@ import Accodion from './Accodion'
 const FolderPaper = () => {
   return (
     <>
-      <div className="bg-white w-1/4 min-h-96 rounded-[20px]">
-        <div className="mt-5 flex items-center justify-between container w-[90%] mx-5 p-4 bg-amber-100 rounded-[20px]">
+      <div className="bg-white lg:w-1/4 min-h-96 md:rounded-[20px] rounded-md mb-5">
+        <div className="mt-5 flex items-center justify-between container w-auto mx-5 p-4 bg-amber-100 rounded-[20px]">
             <div className="flex items-center">
                 <Popover className="relative">
                   <Popover.Button>

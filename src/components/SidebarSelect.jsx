@@ -3,7 +3,7 @@ import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
 import { departments } from '../constants';
 
-const SidebarSelect = () => {
+const SidebarSelect = ({isActive, alert}) => {
     const [selected, setSelected] = useState(departments[0])
     return (
         <>
