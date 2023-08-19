@@ -12,7 +12,7 @@ const SidebarFaculties = () => {
     return (
   
       <>
-      <div className="relative  mx-1 mt-5">
+      <div className="relative w-1/5  mx-1 mt-5">
           <div>
           {sideBarFac.map((button, index) => (
               <SidebarButton
