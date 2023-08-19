@@ -6,12 +6,8 @@ const Faculties = () => {
   return (
     <>
       <div className="flex mx-auto max-w-[1800px] px-4">
-        <SidebarFaculties
-        className="w-1/3"
-        />
-        <FacList
-        className="w-2/3"
-        />
+        <SidebarFaculties/>
+        <FacList/>
       </div>
     </>
   )
